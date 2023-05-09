@@ -1,12 +1,16 @@
 import { useGetPairsQuery } from 'App.services'
+import Header from 'Layouts/Header/Header'
 
 function App() {
   const { data: pairList } = useGetPairsQuery('')
 
   return (
-    <div>
-      <p>hello world</p>
-    </div>
+    <>
+      <Header />
+      <main>
+        <p>hello world</p>
+      </main>
+    </>
   )
 }
 
