@@ -18,7 +18,8 @@
     "react/display-name": "off",
     "no-console": "warn",
     "jsx-a11y/anchor-is-valid": "off", // This rule is not compatible with Next.js <Link /> component
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "react/jsx-key": ["off", { "checkFragmentShorthand": true }]
   },
 
   "overrides": [
