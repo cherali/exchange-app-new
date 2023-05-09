@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-black dark:bg-zinc-900 dark:text-gray-50;
+  }
+
+  table th {
+   width: auto !important;
+  }
+  table thead tr, table tbody tr {
+    width: 100% !important;
+  }
+
+  table tbody tr td {
+    flex: 1;
+    display: inline-flex !important;
+  }
+}
