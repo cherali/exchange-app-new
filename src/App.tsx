@@ -1,17 +1,7 @@
-import { useGetPairsQuery } from 'App.services'
-import Header from 'Layouts/Header/Header'
+import HomePage from 'pages/Home'
 
 function App() {
-  const { data: pairList } = useGetPairsQuery('')
-
-  return (
-    <>
-      <Header />
-      <main>
-        <p>hello world</p>
-      </main>
-    </>
-  )
+  return <HomePage />
 }
 
 export default App

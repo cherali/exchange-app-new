@@ -1,6 +1,6 @@
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 import { Action, configureStore, ThunkAction } from '@reduxjs/toolkit'
-import { homeApis } from 'App.services'
+import { homeApis } from 'pages/Home/Home.services'
 
 export const store = configureStore({
   reducer: {

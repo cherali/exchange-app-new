@@ -1,7 +1,7 @@
 import { createApi } from '@reduxjs/toolkit/query/react'
 import { axiosBaseQuery } from 'utils/apiUtil'
 import { pairsUrl } from 'constants/urls'
-import { PAIR } from 'types'
+import type { PAIR } from 'types'
 
 type PairsData = Array<PAIR>
 
