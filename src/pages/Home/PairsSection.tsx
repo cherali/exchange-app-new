@@ -173,7 +173,7 @@ const PairsSection: FC<PairsSectionProps> = ({
 
   return (
     <Table
-      data={getPairs()?.slice(0, 6) ?? []}
+      data={getPairs() ?? []}
       columns={columns}
       loading={isFetching}
       lodingCard={loadingCard}
