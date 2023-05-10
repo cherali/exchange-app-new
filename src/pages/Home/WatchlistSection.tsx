@@ -108,7 +108,7 @@ const WatchlistSection: FC<WatchlistSectionProps> = ({
             href=''
             className={clsx(
               'px-5 py-2 max-sm:flex-1 max-sm:py-1 whitespace-nowrap',
-              'hover:text-white border hover:border-yellow-400 hover:bg-yellow-400 focus:ring-2 focus:outline-none focus:ring-yellow-300 rounded-lg text-center dark:border-gray-700 dark:text-yellow-300 dark:hover:text-black dark:hover:bg-yellow-400 dark:focus:ring-yellow-900',
+              'hover:text-black text-yellow-500 border hover:border-yellow-400 hover:bg-yellow-400 focus:ring-2 focus:outline-none focus:ring-yellow-300 rounded-lg text-center dark:border-gray-700 dark:text-yellow-300 dark:hover:text-black dark:hover:bg-yellow-400 dark:focus:ring-yellow-900',
             )}
           >
             Buy / Sell
@@ -130,8 +130,8 @@ const WatchlistSection: FC<WatchlistSectionProps> = ({
               type='button'
               onClick={handleClick}
               className={clsx(
-                'px-5 py-2  max-sm:flex-1 max-sm:py-1',
-                'hover:text-white border hover:border-blue-400 hover:bg-blue-400 focus:ring-2 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:border-gray-700 dark:text-blue-300 dark:hover:text-black dark:hover:bg-blue-400 dark:focus:ring-blue-900',
+                'px-5 py-2 max-sm:flex-1 max-sm:py-1',
+                'hover:text-white text-blue-700 border hover:border-blue-400 hover:bg-blue-400 focus:ring-2 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:border-gray-700 dark:text-blue-300 dark:hover:text-black dark:hover:bg-blue-400 dark:focus:ring-blue-900',
               )}
             >
               Remove

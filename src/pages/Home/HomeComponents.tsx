@@ -157,7 +157,7 @@ export const renderCellSM: FC<TableRowData> = ({ row }) => {
             {...tdProps}
             className={clsx(
               'mt-3 whitespace-nowrap',
-              headerName === 'Watchlist' && 'border-solid ',
+              headerName === 'Watchlist' && 'border-solid',
             )}
           >
             <span className='flex-1 flex justify-between gap-8 items-center'>
