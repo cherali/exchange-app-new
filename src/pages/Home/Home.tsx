@@ -10,7 +10,6 @@ import { AddOrRemoveWatchlistFn } from './index.d'
 const tabs = ['Pairs', 'Watchlist']
 
 const HomePage = () => {
-  // const { data: pairList } = useGetPairsQuery('')
   const [tabIndex, setTabIndex] = useState<number>(0)
   const [isPending, startTransition] = useTransition()
 
