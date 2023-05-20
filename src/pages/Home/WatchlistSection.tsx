@@ -163,8 +163,8 @@ const WatchlistSection: FC<WatchlistSectionProps> = ({
     <Table
       data={getPairs()}
       columns={columns}
-      lodingCard={loadingCard}
-      lodingCardSM={loadingCardSM}
+      loadingCard={loadingCard}
+      loadingCardSM={loadingCardSM}
       loadingCardCount={5}
       renderCell={renderCell}
       renderCellSM={renderCellSM}

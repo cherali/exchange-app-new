@@ -7,8 +7,8 @@ export interface ITableProps<T> {
   data: Array<T>;
   columns: Array<Column<T>>;
   loading?: boolean;
-  lodingCard?: ReactNode | FC;
-  lodingCardSM?: ReactNode | FC;
+  loadingCard?: ReactNode | FC;
+  loadingCardSM?: ReactNode | FC;
   loadingCardCount?: number;
   renderCell: RenderCell;
   renderCellSM?: RenderCell;
