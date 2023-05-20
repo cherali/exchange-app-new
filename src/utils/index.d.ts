@@ -1,5 +1,4 @@
 import type { AxiosRequestConfig } from 'axios'
-import type { IncomingHttpHeaders } from 'http2'
 
 export interface QueryProps {
   url: string
